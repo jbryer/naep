@@ -1,0 +1,26 @@
+Package: naep
+Type: Package
+Title: National Assessment of Educational Progress (NAEP)
+Version: 1.0
+Date: 2011-08-26
+Author: Jason Bryer
+Maintainer: Jason Bryer <jason@bryer.org>
+URL: http://jason.bryer.org/naep, http://github.com/jbryer/naep
+BugReports: https://github.com/jbryer/naep/issues
+Description: This package provides functions to access and
+    analyize National Assessement of Educational Progress
+    (NAEP) data provided by the National Center for
+    Educational Statistics (NCES).
+License: GPL
+LazyLoad: yes
+Depends:
+    tcltk,
+    survey,
+    mitools
+Collate:
+    'getBaseDirectory.R'
+    'getNAEPCatalog.R'
+    'getNAEPData.R'
+    'selectVariables.R'
+    'naep-package.R'
+    'naep.model.r'

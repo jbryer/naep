@@ -1,0 +1,7 @@
+export(getBaseDirectory)
+export(getNAEPCatalog)
+export(getNAEPData)
+export(naep.model)
+export(print.naep.model)
+export(selectVariables)
+export(summary.naep.model)
